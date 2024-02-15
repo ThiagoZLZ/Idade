@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.formulario{
+    background-color: red;
+    height: 300px;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10%;
+    
+}
+
+h1{
+    padding-bottom: 40px;  
+}
+
+.qualNome, .qualIdade{
+    padding-bottom: 40px;
+}
+
+.vazio{
+    background-color: red;
+    height: 200px;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10%;
+}
+
+.placar{
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    color: rgb(255, 187, 0);
+    padding-top: 15px;
+}
+
+.botão{
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;  
+}
+
+
+
+
+
+.botão:hover{
+    color: rgb(24, 204, 33);
+}
+
+.botão:active{
+    background-color: rgb(53, 49, 49);
+    color: white;
+}
+
+.velho{
+    border-radius: 45%;
+    height: 80px;
+    width: 80px;
+}
+
+.jovem{
+    border-radius: 45%;
+    height: 80px;
+    width: 80px; 
+}
